@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     string s;
-    cout<<"Enter String : ";
+    // cout<<"Enter String : ";
     getline(cin,s);
 
     int i=0,j=1;
@@ -16,6 +16,7 @@ int main(){
         j++;
     }
     ans=max(ans,j-i);
-    cout<<"Maximum size Subarray of same characters : "<<ans<<endl;
+    // cout<<"Maximum size Subarray of same characters : "<<ans<<endl;
+    cout<<ans;
     return 0;
 }
